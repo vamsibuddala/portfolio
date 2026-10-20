@@ -1,0 +1,78 @@
+---
+name: Enterprise Corporate Engineering Design System
+version: 2.0.0
+description: Production-grade, executive developer portfolio and systems architecture design system with high-contrast slate surfaces, cobalt/indigo precision accents, and corporate case study guidelines.
+tokens:
+  colors:
+    brand:
+      primary: "#2563eb"
+      primaryGlow: "rgba(37, 99, 235, 0.25)"
+      secondary: "#4f46e5"
+      secondaryGlow: "rgba(79, 70, 229, 0.25)"
+      accent: "#0ea5e9"
+      accentGlow: "rgba(14, 165, 233, 0.25)"
+      slate: "#64748b"
+    surfaces:
+      canvas: "#090d16"
+      surface: "#0f172a"
+      surfaceElevated: "#1e293b"
+      surfaceGlass: "rgba(15, 23, 42, 0.78)"
+      surfaceGlassHover: "rgba(30, 41, 59, 0.85)"
+      cardCorporate: "rgba(15, 23, 42, 0.82)"
+      overlayDark: "rgba(9, 13, 22, 0.94)"
+    text:
+      primary: "#f8fafc"
+      secondary: "#cbd5e1"
+      muted: "#94a3b8"
+      highlightBlue: "#60a5fa"
+      highlightIndigo: "#818cf8"
+      highlightSky: "#38bdf8"
+    borders:
+      subtle: "rgba(148, 163, 184, 0.12)"
+      hover: "rgba(59, 130, 246, 0.35)"
+      focus: "rgba(37, 99, 235, 0.55)"
+      divider: "rgba(148, 163, 184, 0.1)"
+    status:
+      production: "#10b981"
+      warning: "#f59e0b"
+      critical: "#ef4444"
+  gradients:
+    corporateBlue: "linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #2563eb 100%)"
+    enterpriseTitanium: "linear-gradient(135deg, #ffffff 0%, #e2e8f0 40%, #94a3b8 100%)"
+    subtleSpine: "linear-gradient(180deg, #3b82f6 0%, #4f46e5 50%, #334155 100%)"
+    glassSheen: "linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.01) 100%)"
+  typography:
+    fonts:
+      sans: "'Inter', system-ui, -apple-system, sans-serif"
+      heading: "'Outfit', 'Inter', system-ui, sans-serif"
+      mono: "'Fira Code', 'JetBrains Mono', monospace"
+    scales:
+      display: { size: "3.75rem", lineHeight: "1.1", weight: "800", tracking: "-0.025em" }
+      h1: { size: "2.75rem", lineHeight: "1.15", weight: "800", tracking: "-0.02em" }
+      h2: { size: "2rem", lineHeight: "1.25", weight: "700", tracking: "-0.015em" }
+      h3: { size: "1.35rem", lineHeight: "1.35", weight: "600", tracking: "-0.01em" }
+      bodyLarge: { size: "1.125rem", lineHeight: "1.65", weight: "400" }
+      body: { size: "0.9375rem", lineHeight: "1.6", weight: "400" }
+      caption: { size: "0.8125rem", lineHeight: "1.4", weight: "500" }
+      code: { size: "0.75rem", lineHeight: "1.4", weight: "500" }
+  radii:
+    sm: "0.375rem"
+    md: "0.5rem"
+    lg: "0.75rem"
+    xl: "1rem"
+    full: "9999px"
+  shadows:
+    glass: "0 10px 30px -10px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.06)"
+    hoverCard: "0 12px 36px -8px rgba(0, 0, 0, 0.55), 0 0 20px -5px rgba(37, 99, 235, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.1)"
+    buttonBlue: "0 4px 14px 0 rgba(37, 99, 235, 0.3)"
+  transitions:
+    smooth: "all 0.25s cubic-bezier(0.16, 1, 0.3, 1)"
+---
+
+# Enterprise Corporate Design System (Kombai Specification)
+
+## Architectural Guidelines
+1. **Executive Clarity & Rigor**: Typography is restrained, high-contrast, and disciplined. Avoid garish neon gradients or video-game arcade colors. Prefer titanium neutrals (`#f8fafc` to `#94a3b8`) paired with precision cobalt blue (`#2563eb`) and indigo (`#4f46e5`).
+2. **Business Impact Over Toy Features**: Every project showcase presents a strict triad: **Business Challenge**, **Architectural Solution**, and **Quantifiable Business Outcome**.
+3. **Restrained Micro-interactions**: Micro-animations are functional, smooth, and subtle (200-300ms ease-out transitions).
+4. **Production Readiness**: All components maintain rigorous accessibility (WCAG AA compliant contrast), keyboard navigability, semantic tags, and ATS compliance.
